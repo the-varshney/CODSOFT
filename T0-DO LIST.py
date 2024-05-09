@@ -5,6 +5,7 @@ class TodoApp:
     def __init__(self, master):
         self.master = master
         self.master.title("ToDo List")
+        self.master.geometry("512x512") 
 
         # Title Label
         self.title_label = tk.Label(self.master, text="ToDo List", bg="blue", fg="white", font=("Helvetica", 16, "bold"))
